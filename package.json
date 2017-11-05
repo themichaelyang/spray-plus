@@ -4,6 +4,8 @@
   "description": "spray!",
   "main": "server/server.js",
   "dependencies": {
+    "johnny-five": "^0.11.7",
+    "sleep": "^5.1.1",
     "socket.io": "^2.0.4",
     "socket.io-client": "^2.0.4"
   },
