@@ -9,6 +9,6 @@ chrome.browserAction.onClicked.addListener((tab) => {
   }
   else {
     chrome.browserAction.setIcon({ path: "icons/off.png" })
-    // chrome.tabs.executeScript({ code: 'alert("Off!")' })
+    chrome.tabs.executeScript({ code: 'alert("Off!")' })
   }
 })
