@@ -5,7 +5,7 @@ chrome.browserAction.onClicked.addListener((tab) => {
 
   if (toggle) {
     chrome.browserAction.setIcon({ path: "icons/on.png" })
-    // chrome.tabs.executeScript({ file: "spray.js" })
+    chrome.tabs.executeScript({ file: "javascript/spray.js" })
   }
   else {
     chrome.browserAction.setIcon({ path: "icons/off.png" })

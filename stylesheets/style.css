@@ -1,0 +1,4 @@
+html, body, textarea {
+  font-family: --apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}

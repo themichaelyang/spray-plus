@@ -1,5 +1,1 @@
-let main = () => {
-  alert("Yo!")
-}
-
-main()
+alert('fuck!')
