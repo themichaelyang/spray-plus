@@ -6,14 +6,16 @@
   "version": "0.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html",
+    "default_icon": "icons/off.png",
     "default_title": "Click here!"
+  },
+
+  "background": {
+    "scripts": ["javascript/background.js"]
   },
 
   "permissions": [
     "activeTab",
-    "browsingData",
     "storage"
   ]
 }
