@@ -43,7 +43,7 @@ board.on('ready', function() {
 
     socket.on('spray', () => {
       console.log('SPRAY ***')
-      spray(servo, 120)
+      spray(servo, 140)
     })
   })
 

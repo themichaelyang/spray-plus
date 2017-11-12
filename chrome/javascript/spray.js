@@ -1,6 +1,6 @@
-const socket = io('https://localhost:8080/')
+socket = io('https://localhost:8080/')
 
-let spray = () => {
+function spray() {
   if (socket) {
     socket.emit('spray', true)
     console.log('spray')
